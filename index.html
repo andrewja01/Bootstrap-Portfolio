@@ -7,34 +7,57 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <nav class="navbar ml-5 mr-5 navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand">Andrew Jasinski</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">                        
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+<body class="background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+            <div class="navbar-brand bg-info text-white"><h2 id="title">Andrew Jasinski</h2></div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">                        
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="nav navbar-nav w-100 justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link links" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link links" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link links" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
     </nav>            
+
+    <br>
     
-    <div class="container">
+    <div class="container bg-white p-4">
         <div class ="row">
             <div class="col-lg-12">
                 <div class="page-header"></div>
-                    <h1 class="text-info">About Me</h1>
+                    <h2 id="heading">About Me</h2>
                         <hr>
-                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                <img src="images/prof-pic.png" class="rounded w-100 h-75" alt="Andrew Jasinski Photo"/>
+            </div>   
+
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+                <p>My name is Andrew Jasinski.  I am currently living in San Francisco and currently working in retail banking.  I moved to San Francisco about 3 years ago from Buffalo, NY and am very happy with the decision to move out west (the winters are just a bit calmer). </p>  
+                <p>In my spare time I enjoy hiking, snowboarding, and just being outdoors in general.  When I moved out here in 2015, my girlfriend and I planned the road trip based around stopping at various National Parks along the way. We went to as many as we could in 10 days before we had to get back to the adult world of work.</p>
+            </div>
+
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">     
+                <p>After spending a few years in banking I decided to make a big change in my life and work towards a new career. At this point I am in the very early stages of becoming a full stack developer but am highly motivated and excited to learn!</p>
+            </div>
+
+        </div>
+    </div>
+
             
     <div class="fixed-bottom container-fluid bg-secondary">
         <div class="row">
